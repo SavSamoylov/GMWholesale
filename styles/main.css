@@ -1,0 +1,302 @@
+    body, html{
+   background:#fff;
+   font-size:16px;
+   overflow-x:hidden;
+   padding:0;
+   margin:0;
+   font-family:"Roboto", sans-serif;
+   overflow-x:hidden;
+    }
+
+    * {
+    box-sizing: border-box;
+}
+
+    a, a:hover{
+    text-decoration:none;
+    color:#333;
+     }
+
+     .edebitimg{
+       z-index:10;
+     }
+
+     .fa{margin-right:10px; }
+     .contactWidget .fa{margin-right:0; padding:20px 35px; border:1px solid #ccc; font-size:32px;}
+
+    h1, h2, h4, h3{
+    text-transform:uppercase;
+    padding:0;
+    margin:0;
+     }
+
+     .btn{
+     position:relative;
+     float:left;
+     text-transform:uppercase;
+     text-decoration:none;
+     background:#FFC500;
+     padding:15px 20px;
+     font-size:15px;
+     font-weight:bold;
+     color:#fff;
+     margin-top:15px;
+     z-index:10;
+      }
+
+     .btn:hover{color:#fff; background:#FFCF2B;}
+
+    .header{
+    background-image:url('../imgs/konstructBG.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:right;
+     }
+
+     .navigationBar{
+    border-bottom:1px solid #ddd;
+      }
+
+
+     .navigationBar--top{
+     background:#21292F;
+     color:#fff;
+      }
+
+     .navigationBar--topList{position:relative; float:right; display:inline; margin:0; text-decoration:none; line-height:35px; }
+     .navigationBar--topList li{position:relative; float:left; display:inline; font-size:14px; font-weight:700; padding:0 20px; box-sizing:border-box;  }
+      .navigationBar--topList a{color:#fff; text-decoration:none; }
+
+     .navigationBar--btm{
+     background:#fff;
+     line-height:65px;
+      }
+
+      .navigationBar--branding{
+      position:relative;
+      float:left;
+      box-sizing:border-box;
+       }
+
+      .navigationBar--logo{
+      position:relative;
+      float:left;
+      background:#FFC500;
+      background-image:url('../imgs/logo.png');
+      background-repeat:no-repeat;
+      background-position:center;
+      height:65px;
+      width:65px;
+       }
+
+      .navigationBar--logo:hover{
+      background:#FFCF2B;
+      background-image:url('../imgs/logo.png');
+      background-repeat:no-repeat;
+      background-position:center;
+      }
+
+      .navigationBar--logoType{
+      position:relative;
+      float:left;
+      padding-left:20px;
+      text-decoration:none;
+      font-family:'Roboto', sans-serif;
+      font-weight:bold;
+      letter-spacing:1.5px;
+      font-size:17px;
+      color:#333;
+       }
+
+       .navigationBar--links{
+       position:relative;
+       float:right;
+        }
+
+       .navigationBar--links ul{position:relative; float:right; text-align:center; display:inline; list-style-type:none; text-transform:uppercase; padding:0; margin:0;}
+       .navigationBar--links ul li{position:relative; float:left;  display:inline;  padding:0; margin:0; font-size:14px; font-weight:bold; font-family:"roboto", sans-serif; box-sizing:border-box; text-align:center;}
+       .navigationBar--links ul li a{padding:0 40px; text-align:center;}
+       .navigationBar--contactLink{background:#FFC500; }
+       .navigationBar--contactLink:hover{background:#FFCF2B; }
+       .navigationBar--contactLink a{color:#fff;}
+       .navigationBar--contactLink a:hover{opacity:1; }
+
+      .headerBlock{
+      position:relative;
+      padding:75px 0 75px;;
+       }
+
+      .headerCopy{
+      color:#fff;
+       }
+
+       .headerCopy h1{text-shadow: 1px 1px 4px #000000; font-size:52px; }
+       .headerCopy h2{text-shadow: 1px 1px 4px #000000; color:#FFC500; font-weight:bolder;}
+       .headerCopy p{text-shadow: 1px 1px 4px #000000; font-size:16px; }
+
+       .infoSection{
+       padding:40px 0;
+    /* box-shadow: 0px -1px 3px #2F2F2F;
+   -webkit-box-shadow: 0px -1px 3px #2F2F2F;
+   -moz-box-shadow: 0px -1px 3px #2F2F2F; */
+       }
+       .headingWidget h2{position:relative; font-weight:bolder; padding:0 0 10px; font-size:24px; border-bottom:1px solid #ccc; }
+       .headingWidget h2::after{
+    position: absolute;
+    content: "";
+    background-color: #f7c51e;
+    height: 3px;
+    width: 30px;
+    bottom: -1px;
+    left: 0;
+        }
+
+       .headingWidget h4{position:relative; font-weight:bolder; padding:0 0 10px; border-bottom:1px solid #ccc; }
+       .headingWidget h4::after{
+    position: absolute;
+    content: "";
+    background-color: #f7c51e;
+    height: 3px;
+    width: 30px;
+    bottom: -1px;
+    left: 0;
+        }
+
+        .textWidget{font-size:15px; }
+        .imgWidget{padding:40px 0; }
+        .imgWidget img{position:relative; float:right;}
+
+      .infoSection--list{padding:0; margin:0; }
+      .infoSection--list h4{padding-bottom:20px; }
+
+      .infoSection--list .fa{margin-right:10px; color:#f7c51e; }
+
+      .contactWidget{background:#fff; padding:20px; border:1px solid #ccc; text-align:center; font-size:14px; font-weight:bold;}
+
+      .headingWidget h2.alignCenter{text-align:center; }
+      .headingWidget h2.alignCenter::after{
+    position: absolute;
+    content: "";
+    top: 42px;
+    left: 50%;
+    margin-left: -15px;
+    height: 3px;
+    width: 30px;
+    background: #f7c51e;
+       }
+
+
+      .footer{height:65px; background:#21292F; line-height:65px; color:#fff;  }
+      .footerBar--branding{
+      position:relative;
+      float:left;
+      box-sizing:border-box;
+       }
+
+      .footerBar--logo{
+      position:relative;
+      float:left;
+      background:#FFC500;
+      background-image:url('../imgs/logo2.png');
+      background-repeat:no-repeat;
+      background-position:center;
+      height:40px;
+      width:40px;
+      margin-top:10px;
+       }
+
+      .footerBar--logoType{
+      position:relative;
+      float:left;
+      padding-left:20px;
+      text-decoration:none;
+      font-family:'Roboto', sans-serif;
+      letter-spacing:1.5px;
+      font-size:14px;
+      color:#fff;
+       }
+
+      .padding40{
+      padding:20px 40px;
+      background:rgba(14,14,14,0.85);
+       }
+
+      .heroSection{
+        background:#f7f7f7;
+        padding:40px;
+       }
+
+      .aboutSection img{
+       padding-bottom:40px;
+       }
+
+      .requestWidget{background:#FFC500; padding:20px; color:#333; font-weight:300;}
+      .requestWidget .btn{background:#fff; color:#333; }
+      .requestWidget .btn:hover{background:#333; color:#fff; }
+
+      .serviceSection--pad{background:#f7f7f7; padding:10px 0; margin:0; }
+      .serviceSection--info{padding:10px 0; margin:0;}
+
+
+      .formContainer{background:#eee; margin-bottom:40px;}
+      .formContainer input{width:100%; height:43px; padding-left:20px; line-height:35px; z-index:10; color:#aaa; display:block; margin:20px 0; border:1px solid #aaa;}
+      #contactForm--message{width:100%; margin-top:20px; height:170px; resize:none; overflow:auto; color:#aaa; padding-left:20px; border:1px solid #aaa; }
+      .formContainer .btn{border:none; float:right; margin-bottom:20px; color:#fff;}
+
+
+      .partnerSection{line-height:60px; background:#f7f7f7; }
+
+
+      @media (max-width: 600px) {
+.formContainer .btn{width:100%; }
+}
+
+
+@media (max-width: 1200px) {
+.navigationBar--links{position:relative; float:right; padding:0; margin:0;}
+.navigationBar--links ul{position:relative; padding:0; margin:0; float:right; width:100%; text-align:center; }
+.navigationBar--links ul li{padding:0; margin:0; font-size:12px;}
+     .navigationBar--topList li{font-size:12px; }
+
+}
+
+      @media (max-width: 995px) {
+.navigationBar--links ul li{padding:0; }
+.navigationBar--links ul li a{padding:0 25px; }
+
+ .navigationBar--topList li{padding:0 15px; }
+      }
+
+
+      @media (max-width: 995px) {
+.contactWidget:nth-child(2){border:1px solid #ccc; border-top:none; }
+.serviceSection--pad h4{margin-top:20px; }
+      }
+
+ @media (max-width: 610px) {
+.navigationBar--links{position:relative; width:100%; text-align:center; }
+.navigationBar--links ul{width:100%; text-align:center; }
+.navigationBar--links ul li{position:relative; float:none; width:25%; text-align:center; padding:0 20px; }
+.navigationBar--links ul li a{padding:0;}
+.navigationBar--contactLink{background:none; color:#333; padding:0; }
+.navigationBar--contactLink a{color:#333; padding:0; }
+.navigationBar--contactLink:hover{background:none; }
+
+.navigationBar--branding{width:100%; }
+.navigationBar--logo{float:none; margin:auto; }
+.navigationBar--logoType{position:relative; float:left; width:100%; text-align:center; }
+
+  .navigationBar--topList{height:10px;}
+.navigationBar--topList li{display:none;}
+
+}
+
+            @media (max-width: 690px) {
+.navigationBar--links ul li{padding:0; }
+.navigationBar--links ul li a{padding:0 10px; }
+      }
+
+
+            @media (max-width: 363px) {
+.footerBar--logoType{font-size:12px; padding-left:10px;  }
+      }
